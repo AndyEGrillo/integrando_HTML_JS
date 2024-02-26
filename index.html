@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario HTML</h1>
+        <h2>Preencha os campos para validação:</h2>
+        <form id="form-campos">
+            <h2>Campo A</h2>
+            <input type="number" id="Campo-A" required placeholder="" />
+            <p class="error-msg">
+                O valor precisa ser menor que o campo B.
+            </p>
+            <h2>Campo B</h2>
+            <input type="number" id="Campo-B" required placeholder="" />
+            <button id="btn-validar" type="submit">Validar</button>
+        </form>
+        <p class="success-msg"></p>
+        <p class="error-msg"></p>
+     </div>
+     <script src="./main.js"></script>
+</body>
+</html>
